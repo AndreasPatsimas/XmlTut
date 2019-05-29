@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:patient id="0"
+	xmlns:tns="http://www.bharatthippireddy.com/Patient"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.bharatthippireddy.com/Patient ../PatientXML/Patient.xsd ">
+	<tns:name>Andreas Patsima</tns:name>
+	<tns:age>26</tns:age>
+	<tns:dob>1993-02-16</tns:dob>
+	<tns:email>andreas-patsim@hotmail.com</tns:email>
+	<tns:gender>M</tns:gender>
+	<tns:phone>6988116719</tns:phone>
+	<tns:payment>
+		<tns:insurance>
+			<tns:provider>Blue Cross</tns:provider>
+			<tns:limit>5000</tns:limit>
+		</tns:insurance>
+	</tns:payment>
+</tns:patient>
