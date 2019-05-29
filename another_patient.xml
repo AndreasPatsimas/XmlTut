@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <patient xmlns="http://www.bharatthippireddy.com/Patient" id="3">
-    <age>26</age>
-    <dob>1993-06-07T00:00:00+03:00</dob>
-    <email>sergio@gmail.com</email>
-    <gender>M</gender>
-    <name>Sergio</name>
-    <payment>
-        <insurance>
-            <limit>10000000</limit>
-            <provider>ARIS</provider>
-        </insurance>
-    </payment>
-    <phone>694409538</phone>
+	<age>26</age>
+	<dob>1993-06-07T00:00:00+03:00</dob>
+	<email>sergio@gmail.com</email>
+	<gender>M</gender>
+	<name>Sergio</name>
+	<payment>
+		<insurance>
+			<limit>10000000</limit>
+			<provider>ARIS</provider>
+		</insurance>
+	</payment>
+	<phone>694409538</phone>
 </patient>
+

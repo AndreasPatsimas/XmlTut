@@ -14,13 +14,12 @@ public class ObjectToXmlAndInverse {
 
 	public static Object XmlToObject(String nameOfXmlFile, Class entityClass,Object entityObject) {
 		try {
-			File file = new File(nameOfXmlFile);
 			
 			JAXBContext jaxbContext = JAXBContext.newInstance(entityClass);
 
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 			
-			entityObject = (Object) jaxbUnmarshaller.unmarshal(file);
+			entityObject = (Object) jaxbUnmarshaller.unmarshal(new File(nameOfXmlFile));
 			
 			return entityObject;
 		}
